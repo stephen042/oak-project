@@ -1,0 +1,188 @@
+@media (min-width:300px) and (max-width:500px){
+
+
+  
+.container .header{
+  position: relative;
+}
+
+.container .header .logo{
+  margin-left: 5px;
+}
+
+  .container .header .nav{
+    display: block;
+    border: 2px solid #eee;
+    width: 100%;
+    min-height: 20px;
+    margin: 0px auto;
+     padding: 2px;
+    display: none;
+ }
+
+ .container .header .bar{
+   display: block;
+ }
+ 
+ .container .header .nav li{
+   display:block;
+   width: 90%;
+   height: 40px;
+   font-size: 18px;
+   text-align: center;
+   padding:5px;
+   background-color: #ffffff;
+   margin: 5px auto;
+ 
+ }
+ 
+ .container .header .nav li.btn{
+   width: 90%;
+   background-color: #ffffff;
+   border-radius: 0px;
+ 
+ }
+ 
+ .container .header .nav li.btn a{
+  color: #063680;
+ }
+ 
+ 
+ .container .header .nav li a{
+   text-decoration: none;
+   color: #063680;
+ }
+
+
+ /* intro section */
+
+
+
+
+ .container .intro{
+  padding-top: 40px;
+}
+
+.container .intro .box{
+  width: 100%;
+  display: block;
+  margin: 15px auto;
+  min-height: 200px;
+}
+
+.container .intro .box.image{
+  height: 200px;
+}
+
+.container .intro .box h1{
+  font-size: 30px;
+  padding:5px;
+  text-align: center;
+
+}
+
+.container .intro .box p{
+    color: #ffffff;
+    font-size: 20px;
+    padding:10px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+.container .intro .box a{
+   width: 95%;
+}
+
+
+/* launch section */
+
+
+
+.container .launch .icon,.container .launch .content,.container .launch .button{
+   display: block;
+   margin: 10px auto;
+}
+
+.container .launch .icon{
+  display: none;
+}
+
+.container .launch .content{
+  width: 100%;
+  padding: 25px 5px;
+}
+
+.container .launch .content h1{
+ font-size: 25px;
+} 
+
+
+
+.container .launch .button{
+  width: 95%;
+}
+
+
+/* partners section */
+.container .partners{
+  text-align: center;
+}
+
+
+.container .partners .box{
+   display: inline-block;
+   width: 25%;
+   margin: 15px;
+}
+
+/* experience section */
+.container .experience{
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.container .experience .box{
+   width: 95%;
+   margin: 20px auto;
+   display:block;
+   padding: 10px;
+}
+
+
+/* supports */
+
+.container .support{
+  padding: 10px;
+}
+
+.container .support .box{
+   width: 95%;
+   margin: 10px auto;
+   display:block;
+}
+
+
+
+.container .support .box a{
+  width: 80%;
+}
+
+
+/* testimony section */
+.container .testimonies{
+  padding:10px;
+}
+
+.container .testimonies .child{
+   width: 90%;
+   min-height: 300px;
+   display:block;
+   margin: 15px auto;
+   padding: 15px;
+}
+
+
+
+}
+
